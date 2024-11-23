@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <body><br><br><br><br><br><br><br>
+        <center><h1>Register</h1>
+        <form action="./RegisterSuccess.html">
+         <label for="">Username: </label><br>
+         <input type="text" name="username" required  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])"><br><br>
+         <label for="">Password</label><br>
+         <input type="password" minlength="8" maxlength="16" name="password" id="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d](?=.*[!@#$%^&*()_-=+~`?/\|,:;'']))" required><br><br>
+         <label for="">Email</label><br>
+         <input type="mail" name="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+         <button type="sumbit">Register</button>
+        </form></center> 
+     </body>
+     </html>
+</body>
+</html>

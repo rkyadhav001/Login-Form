@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+</head>
+<body>
+    <body><br><br><br><br><br><br><br>
+        <center><h1>Forgot Password</h1>
+        <form action="./PasswordReset.html">
+         <label for="">Username: </label><br>
+         <input type="text" name="username" required><br><br>
+         <label for="">New Password</label><br>
+         <input type="password" minlength="8" maxlength="16" name="password" id="Password" required  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d](?=.*[!@#$%^&*()_-=+~`?/\|,:;'']))"><br><br>
+         <label for="">OTP</label><br>
+         <input type="otp" name="otp" title="Enter 4 digits" required  pattern="(?=.*[\d])"><br><br>
+         <button type="sumbit">Reset Password</button>
+         <a href=""></a>
+        </form></center> 
+     </body>
+     </html>
